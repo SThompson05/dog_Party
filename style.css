@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #75e2e6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #0ac2e7bf;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 25px 20px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+        ), url(assets/park.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+.hero h1 {
+    font-family: 'Arial', sans-serif; /* Replace with your desired font */
+    font-weight: 100; /* Choose a value for thinness */
+    font-size: 2.5em;
+}
+  
+.hero img {
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #048eaa;
+}
+  
+.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.hero form label {
+    justify-self: start;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.hero form input {
+    width: 280px; /* Set width for the input field */
+    height: 18px; 
+    border-radius: 12px;
+    padding: 10px; /* Increase padding */
+    font-size: 12px; /* Increase font size */
+    margin-bottom: 15px;
+}
+  
+.hero button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:  #75e2e6;
+    color: #040000;
+    border: none;
+    cursor: pointer;
+    width: 300px; 
+    height: 40px; 
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 30px 20px;
+    background-color: #f0f0f0;
+    align-items: space-evenly;
+    height: 50vh;
+}
+
+.dog-info {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    text-align: center;
+    width: 280px; 
+    height: 419px;
+    padding: 10px; /* Add padding if needed */
+    box-sizing: border-box; 
+}
+
+.dog-info img {
+    border-radius: 50%;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 5px solid #048eaa;
+}
+  
+.dog-info h2 {
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: 'Bakbak One', sans-serif;
+}
+  
+.dog-info p {
+    font-size: 1em;
+    margin: 10px 0;
+    text-align: left;
+    font-family: 'KoHo', sans-serif;
+    font-weight: 500;
+}
+  
+.dog-info button {
+    padding: 10px 20px;
+    background-color: #048eaa;
+    font-family: 'Bakbak One', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Full width of the parent container */
+    height: 40px;
+    margin-top: auto; 
+}
+
+.social-media img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #048eaa;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
