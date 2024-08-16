@@ -96,7 +96,7 @@ li a {
     padding: 30px 20px;
     background-color: #f0f0f0;
     align-items: space-evenly;
-    height: 50vh;
+    height: auto;
 }
 
 .dog-info {
@@ -104,9 +104,10 @@ li a {
     flex-direction: column; /* Arrange children in a column */
     text-align: center;
     width: 280px; 
-    height: 419px;
+    min-height: 419px;
     padding: 10px; /* Add padding if needed */
     box-sizing: border-box; 
+    overflow: hidden;
 }
 
 .dog-info img {
